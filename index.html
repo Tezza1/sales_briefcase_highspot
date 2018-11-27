@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Highspot- Material Integration</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="navbar-fixed">
+        <nav class="indigo darken-4">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a class="brand-logo left"><img class="responsive-img" src="img/Berlitz_logo.png"></a>
+                    <div class="switch right">
+                        <label>
+                            English
+                            <input type="checkbox">
+                            <span class="lever"></span>
+                            日本語
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    
+    <main>
+        <!-- BANNER -->
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h1 class="center-align indigo-text">Highspot <br>Sales Briefcase</h1>
+                </div>
+            </div>        
+        </div>
+
+        <!-- TABS -->
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col s3">
+                            <a href="#tab1" class="indigo-text">Introduction</a>
+                        </li>
+                        <li class="tab col s3">
+                            <a href="#tab2" class="indigo-text">Overview</a>
+                        </li>
+                        <li class="tab col s3">
+                            <a href="#tab3" class="indigo-text">Objective</a>
+                        </li>
+                        <li class="tab col s3">
+                            <a href="#tab4" class="indigo-text">Framework</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- INTRODUCTION TAB -->
+                <div id="tab1" class="col s12">
+                    <h3 class="tab-header grey-text text-darken-2">Introduction</h3>
+                    <div class="container">
+                        <div class="row">
+                            <ul class="collapsible" data-collapsible="expandable">
+                                <li>
+                                    <div class="collapsible-header active">
+                                        <i class="material-icons indigo-text">public</i><b>Overview</b>
+                                    </div>
+                                    <div class="collapsible-body indigo lighten-5">
+                                        <span class="grey-text text-darken-2">Understand the goal of the project and how Highspot can be effectively used by Berlitz Japan SD to be effective and more efficient. Additionally, be aware of the stages of this project.</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="collapsible-header">
+                                        <i class="material-icons indigo-text">golf_course</i><b>Objective</b>
+                                    </div>
+                                    <div class="collapsible-body indigo lighten-5">
+                                        <span class="grey-text text-darken-2">Following on from the goal of the project, this breaks down the key benefits of using Highspot for the Berlitz Japan Sales Department.</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="collapsible-header">
+                                        <i class="material-icons indigo-text">widgets</i><b>Framework</b>
+                                    </div>
+                                    <div class="collapsible-body indigo lighten-5">
+                                        <span class="grey-text text-darken-2">This is the key area. It looks at the actual contents of the Sales briefcase. How they will be arranged in Highspot and what contents to include.</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- OVERVIEW TAB -->
+                <div id="tab2" class="col s12">
+                    <h3 class="tab-header grey-text text-darken-2">Overview</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias ipsa consectetur magnam suscipit omnis labore voluptatem</p>
+                </div>
+
+                <!-- OBJECTIVE TAB -->
+                <div id="tab3" class="col s12">
+                    <h3 class="tab-header grey-text text-darken-2">Objective</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam ipsum distinctio odit dolore asperiores</p>
+                </div>
+
+                <!-- FRAMEWORK TAB -->
+                <div id="tab4" class="col s12">
+                    <h3 class="tab-header grey-text text-darken-2">Framework</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus id hic nostrum sequi excepturi facilis iusto, et voluptate tempora</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="page-footer footer-fixed white">
+        <div class="footer-copyright indigo darken-4">
+            <div class="container">
+                Copyright &copy; 2018
+            </div>
+        </div>
+    </footer>
+  
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+          $('.collapsible').collapsible();
+
+        });
+    </script>
+</body>
+
+</html>
